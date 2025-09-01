@@ -27,19 +27,7 @@ class Dog extends Animal {
         console.log("woof");
     }
 }
-const myCat = new Cat("Siamese");
-myCat.makeSound();
-// Expected Output: The Siamese makes a sound
 
-myCat.purr();
-// Expected Output: purr
-
-// Creating an instance of Dog
-const myDog = new Dog("Golden Retriever");
-myDog.makeSound();
-// Expected Output: The Golden Retriever makes a sound
-
-myDog.bark();
 
 // Do not change the code below this line
 window.Animal = Animal;
